@@ -1,16 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>标签</title>
+    <base target=_blank>
 </head>
+
 <body>
     <div>华为手机</div>
     <span>华为笔记本电脑</span>
     <a href="">华为智能电视</a>
-    
+
     <img src="" alt="" />
     <input type="text" />
+
+    <div>
+        <h1>标题标签One</h1>
+        <h2>Two</h2>
+        <h3>Three</h3>
+        <h4>Four</h4>
+        <h5>Five</h5>
+        <h6>Six</h6>
+    </div>
+
+    <div>
+        <p>
+            主讲人：张宇&nbsp;&nbsp;&nbsp;&nbsp;华为高校教育解决方案专家、华为资深前端开发工程师。
+        </p>
+        <p>
+            拥有十多年一线互联网公司研发经验，曾任阿里技术专家、IBM架构师，在企业内部拥有多年大型项目实战经验，擅长全栈开发，能够针对企业项目提出全套技术解决方案；在HTML5及移动端混合开发领域拥有独到见解。
+        </p>
+        <p>
+            曾担任H5金牌讲师，拥有多年教学经验，擅长以实际项目为蓝本进行案例教学。授课风格深入浅出，风趣幽默，善于引导学生发散思维。骨灰级码农，项目经验丰富；授课幽默风趣，结合一线互联网公司的实战案例，将知识点透彻讲解。
+        </p>
+    </div>
+
+    <div>div1
+        <div>div1.1</div>
+        <div>div1.2</div>
+    </div>
+    <div>div2</div>
+    <div>div3</div>
+
+    <span>span1</span>
+    <span>span2</span>
+    <span>span3</span>
+
+    <span>span1
+        <span>span1.1</span>
+        <span>span1.2</span>
+    </span>
+
+    <a href="https://www.huawei.com">华为官网</a>
+    <a href="https://www.baidu.com" target="_self">百度</a>
+    <a href="https://www.tencent.com" target="_blank">腾讯官网</a>
+
+    <a href="javascript:void(0)">空链接</a>
+    <a href="javascript:;">空链接2</a>
+
+    <img src="https://xusong.taihe.com/img/logo3.9023369e.png" alt="Vae官网" width="100" height="100" title="许嵩官网" />
+
+    <ul type="square">
+        <li>q</li>
+        <li>w</li>
+        <li>e</li>
+    </ul>
+    <ul type="cycle">
+        <li>q</li>
+        <li>w</li>
+        <li>e</li>
+    </ul>
+    <ul type="none">
+        <li>q</li>
+        <li>w</li>
+        <li>e</li>
+    </ul>
+
+    <ol type="I">
+        <li>q</li>
+        <li>w</li>
+        <li>e</li>
+    </ol>
+
+    <dl>
+        <dt>安徽省</dt>
+        <dd>合肥市</dd>
+        <dd>六安市</dd>
+        <dd>蚌埠市</dd>
+    </dl>
+
+    <table>
+        <caption>表格标题</caption>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>第一行1</td>
+            <td>第一行2</td>
+            <td>第一行3</td>
+        </tr>
+        <tr>
+            <td>第二行1</td>
+            <td>第二行2</td>
+            <td>第二行3</td>
+        </tr>
+        <tr>
+            <td>第三行1</td>
+            <td>第三行2</td>
+            <td>第三行3</td>
+        </tr>
+    </table>
+
+    <table border="5" width="500" height="200" align="center">
+        <col bgcolor="red">
+        <col bgcolor="blue">
+        <col bgcolor="yellow">
+        <caption>表格标题</caption>
+        <thead>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </thead>
+        <tbody>
+            <tb>
+                <td>第一行1</td>
+                <td>第一行2</td>
+                <td>第一行3</td>
+            </tb>
+            <tr>
+                <td>第二行1</td>
+                <td>第二行2</td>
+                <td>第二行3</td>
+            </tr>
+            <tr>
+                <td>第三行1</td>
+                <td>第三行2</td>
+                <td>第三行3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="5" width="500" height="200" cellspacing="0" cellpadding="20">
+        <caption>表格标题</caption>
+        <tr>
+            <td colspan="2">第一行1</td>
+            <td>第一行2</td>
+        </tr>
+        <tr>
+            <td>第二行1</td>
+            <td rowspan="2" align="center">第二行2</td>
+            <td>第二行3</td>
+        </tr>
+        <tr>
+            <td>第三行1</td>
+            <td>第三行3</td>
+        </tr>
+    </table>
+
+    <table border="1" cellspacing="0" cellpadding="5" align="center">
+        <caption>华为手机</caption>
+        <colgroup span="4" width="300"></colgroup>
+        <thead>
+            <tr>
+                <th>型号</th>
+                <th>图片</th>
+                <th>价格</th>
+                <th>数量</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>p40</td>
+                <td><img src="https://consumer.huawei.com/content/dam/huawei-cbg-site/greate-china/cn/mkt/pdp/phones/p40-pro-plus/images/design/design-intro-e-plus-cn@2x.webp"
+                        alt="p40-pro-plus" width="50" height="50"></td>
+                <td>5000</td>
+                <td>100</td>
+            </tr>
+            <tr align="center">
+                <td>matepad</td>
+                <td><img src="https://res.vmallres.com/pimages//product/6901443403639/78_78_DBC6EDFFD6B49C7859BA4050C1C0942C8CFA71AC388EEAD2mp.png"
+                        alt="matepad" width="50" height="50"></td>
+                <td>3000</td>
+                <td>50</td>
+            </tr>
+            <tr align="center">
+                <td>nova7-pro-5g</td>
+                <td><img src="https://consumer.huawei.com/content/dam/huawei-cbg-site/greate-china/cn/mkt/pdp/phones/nova7-pro-5g/img/pc/huawei-nova-7-pro-5g-colours-id-silver@2x.png"
+                        alt="nova7-pro-5g" width="50" height="50"></td>
+                <td>3000</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr align="center">
+                <td colspan="4" bgcolor="yellow">总计:100000</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
+
 </html>
