@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="https://www.huawei.com" method="get">
+        <div>你最喜欢的华为手机型号是？</div>
+
+        <div>
+            <input type="text" value="" />
+        </div>
+
+        <div>
+            <input type="submit" value="提交" />
+            <input type="reset" value="重置" />
+        </div>
+    </form>
+
+    <form action="http://www.huawei.com" method="get">
+        <div>购买手机</div>
+        <div>用户名：<input type="text" name="user"></div>
+        <div>密码：<input type="password" name="pwd"></div>
+        <div>
+            手机：
+            <input type="radio" name="photo" id="p" value="p40"><label for="p">P40手机</label>
+            <input type="radio" name="photo" id="mate" value="mate40"><label for="mate">Mate30手机</label>
+        </div>
+        <div>
+            配件：
+            <input type="checkbox" name="part">无线耳机
+            <input type="checkbox" name="part">充电宝
+        </div>
+        <div><input type="submit" value="提交"></div>
+    </form>
+
+    <div>选择你最喜欢的科目：</div>
+    <select name="course" id="s1" size="2" multiple>
+        <option value="math">数学</option>
+        <option value="Chinese" selected>语文</option>
+        <option value="english">英语</option>
+    </select>
+    
+    <textarea name="text" id="t1" cols="130" rows="10"></textarea>
+</body>
+
+</html>
