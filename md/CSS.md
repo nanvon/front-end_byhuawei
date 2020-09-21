@@ -35,3 +35,17 @@
 ```css
 h1{property:value;......}
 ```
+### id选择器
+可以在HTML标签上设置一个id属性值，且唯一不可重复
+```css
+#content{property:value;......}
+
+<div id="content">HUAWEI</div>
+```
+### 类选择器
+类指class属性，有相同class属性值的都会被选中，不具有唯一性，可以和元素选择器组合使用
+```css
+.title{property:value;......}
+
+<div class="title">HUWEI</div>
+```
