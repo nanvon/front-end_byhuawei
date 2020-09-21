@@ -30,3 +30,8 @@
 ```css
 *{property:vale; ......}
 ```
+### 元素选择器
+使用某个HTML元素名作为选择器
+```css
+h1{property:value;......}
+```
