@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>选择器</title>
-    <style>
+  <!-- <style>
         *{
             margin: 0px;
             padding: 0px;
@@ -29,10 +29,45 @@
         p.one{
             color: red;
         }
+
+    </style>  -->
+
+
+    <!-- 属性选择器： -->
+    <style> 
+        /* p[title]{
+            color: red;
+        } */
+        /* p[title="huawei"]{
+            color: blue;
+        } */
+        /* p[title~="hua"]{
+            color: yellow;
+        } */
+        p[title|="hua"]{
+            color: green;
+        }
+
+        a:link{
+            color: yellow;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: pink;
+        }
+        a:active{
+            color: green;
+        }
+        /* LoVe HAte 爱与恨*/
+
+
+
     </style>
 </head>
 <body>
-    <div style="background: yellow;">HUAWEI LUYOUQI</div>
+   <!-- <div style="background: yellow;">HUAWEI LUYOUQI</div>
     <p>SHI YONG 5G</p>
     <ul>
         <li>5G new</li>
@@ -48,6 +83,22 @@
     <div class="one">组合使用2</div>
     <div class="one">组合使用3</div>
     <div>组合使用4</div>
-    <p class="one">组合使用5</p>
+    <p class="one">组合使用5</p>  -->
+
+    <h1>属性选择器</h1>
+
+    <p title="hua-wei huawei hua ">华为云在线教育</p>
+
+    <h1>伪类选择器</h1>
+
+
+    <a href="https://www.huawei.com">华为</a>
+    <a href="https://www.baidu.com">baidu</a>
+    <a href="https://www.baidu.com">baidu</a>
+    <a href="https://www.baidu.com">baidu</a>
+
+    <h1>派生选择器</h1>
+
+    
 </body>
 </html>

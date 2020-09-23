@@ -49,3 +49,36 @@ h1{property:value;......}
 
 <div class="title">HUWEI</div>
 ```
+
+### 属性选择器
+用于对某种属性的元素设置CSS样式
+```css
+E[attribute]{property:value;......}
+```
+#### 属性的种类：
+- `[attribute]`用于选取指定属性（attribute）的元素
+- `[attribute=value]`用于指定属性（attribute）和指定属性值（value）的元素
+- `[attribute~=value]`用于选取属性值中包含指定值的元素
+- `[attribute|=value]`用于选取以指定值开头的属性值的元素
+
+
+### 伪类选择器
+指哪些处在一定状态的元素，以冒号开头
+
+伪类：
+> 这个从上往下的顺序很重要：`L`o`V`e `H``A`te 爱与恨
+- `link` 表示未被访问的链接
+- `visited` 表示已被访问的链接
+- `hover` 鼠标经过链接上方时的状态
+- `active` 链接被激活时的状态  
+
+### 派生选择器
+1. 后代选择器
+```css
+父元素 子元素{property:value;......}
+```
+> 注意：父元素与子元素之间至少有一个空格，可以有很多空格
+
+```css
+p span{color:red;}
+```
