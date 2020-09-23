@@ -63,7 +63,26 @@
         /* LoVe HAte 爱与恨*/
 
 
+        /* 后代选择器 */
+        /* span{
+            color: blue;
+        }
+        p span{
+            color: red;
+        } */
 
+        span{
+            color: blue;
+        }
+        p > span{
+            color: red;
+        }
+        span + span{
+            color: pink;
+        }
+        h2 + p{
+            color: aqua;
+        }
     </style>
 </head>
 <body>
@@ -99,6 +118,18 @@
 
     <h1>派生选择器</h1>
 
-    
+    <h2>后代选择器</h2>
+    <div>华为云：<span>HCIA认证</span></div>
+    <p>华为云：<span>HCIP认证</span> <span>HCIE认证</span></p>
+
+    <h2>子元素选择器</h2>
+
+    <p>华为云：<span>HCIP认证<span>孙子span</span></span>
+            <span>HCIE认证</span>
+    </p>
+
+    <h2>相邻兄弟选择器</h2>
+
+
 </body>
 </html>
