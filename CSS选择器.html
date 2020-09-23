@@ -71,6 +71,7 @@
             color: red;
         } */
 
+        /* 派生选择器 */
         span{
             color: blue;
         }
@@ -82,6 +83,22 @@
         }
         h2 + p{
             color: aqua;
+        }
+
+
+        div{
+            /* color: green !important; */
+            color: red;
+            color: peru;
+        }
+        #title{
+            color: chartreuse;
+        }
+        .title{
+            color: blue;
+        }
+        div#title{
+            color: orange;
         }
     </style>
 </head>
@@ -129,6 +146,12 @@
     </p>
 
     <h2>相邻兄弟选择器</h2>
+
+
+    <h1>选择器权重</h1>
+
+    <!-- <div class="title" id="title" style="color: gray;">华为云在线教育解决方案</div> -->
+    <div class="title" id="title">华为云在线教育解决方案</div>
 
 
 </body>
