@@ -189,3 +189,17 @@ p{font:monospace 50px bold italic}
 ```css
 text-shadow:10px 10px 5px gray
 ```
+
+### 3. 尺寸
+#### 宽度和高度
+> `width`宽度  
+> `height` 高度  
+> 属性值：`auto`、长度、百分比
+
+#### 最小宽度和最小高度
+> `min-width`最小宽度  
+> `min-height`最小高度
+
+#### 最大宽度和最大高度
+> `max-width`最大宽度  
+> `max-height`最大高度
