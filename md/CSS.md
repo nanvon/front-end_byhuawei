@@ -203,3 +203,17 @@ text-shadow:10px 10px 5px gray
 #### 最大宽度和最大高度
 > `max-width`最大宽度  
 > `max-height`最大高度
+
+
+### 4. 列表
+- `list-style-image`   
+用于指定一个图片作为列表项前面的标记  
+默认值为`none`，可以设置一个图片的`url`作为标记图片
+
+- `list-style-position`  
+用于设置在什么位置显示列表项前面的标记  
+默认值为`outside`，还可以设置为`inside`
+
+- `list-style-type`  
+用于设置列表项前面图片的类型  
+默认值为`disc`，其他值：`circle`,`square`,`decimal`,`none`,`low-alpha`,`upper-alpha`...
