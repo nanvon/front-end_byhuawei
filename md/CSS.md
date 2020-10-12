@@ -217,3 +217,8 @@ text-shadow:10px 10px 5px gray
 - `list-style-type`  
 用于设置列表项前面图片的类型  
 默认值为`disc`，其他值：`circle`,`square`,`decimal`,`none`,`low-alpha`,`upper-alpha`...
+
+- `list-style`  
+这是一个简写属性  
+`list-style` = `list-style-image` + `list-style-position`  + `list-style-type`   
+例如：`ul{list-style: decimal inside}`
