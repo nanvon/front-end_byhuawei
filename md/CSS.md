@@ -222,3 +222,38 @@ text-shadow:10px 10px 5px gray
 这是一个简写属性  
 `list-style` = `list-style-image` + `list-style-position`  + `list-style-type`   
 例如：`ul{list-style: decimal inside}`
+
+### 5. 背景
+- `background-color`  
+默认：`transparent` 透明  
+三种设置颜色的方法：  
+    - 颜色名 `red`  
+    - 十六进制颜色 #ff0000  
+    - rgb颜色 rgb(255,0,0)  
+
+- `background-image`  
+设置背景图片  
+默认值：`none`  
+可以设置url地址作为图片背景：默认图片会平铺
+
+- `background-repeat`  
+主要用来配合`background-image`来使用，用来设置背景图片的平铺方式  
+默认值为：`repeat`，表示将背景图片在X轴和Y轴方向平铺显示  
+沿x轴平铺：`repeat-x`  
+沿y轴平铺：`repeat-y`  
+不平铺：`no-repeat`  
+
+- `background-position`  
+也是配合`background-image`来使用，用来设置背景图片的起始位置  
+默认为左上角零点位置  
+位置参数：X轴方向left、center、right；Y轴方向：top、center、bottom  
+百分比：X轴位置x%，Y轴位置y%  
+长度：X轴离原点长度、Y轴离原点长度  
+
+- `background-attachment`  
+用于设置背景图片固定或者跟随页面滚动  
+默认值：`scroll`  
+还可以设置为`fixed`：固定 
+
+- `background`  
+简写属性，可以全部设置，也可以省略其中几项

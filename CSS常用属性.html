@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS常用属性</title>
     <style>
-        .text1{
+        .text1 {
             font-family: serif;
             /* font-family: sans-serif; */
             /* font-family: FiraCode-Retina; */
@@ -15,10 +16,11 @@
             /* font-style: italic; */
             /* font-weight: bold; */
             /* font-weight: lighter; */
-            
+
             font: italic 5px bolder;
         }
-        .text2{
+
+        .text2 {
             /* color: brown; */
             /* color: #6ca5fe; */
             color: rgb(192, 0, 0);
@@ -30,7 +32,8 @@
             letter-spacing: 10px;
             text-shadow: 10px 5px 5px yellow;
         }
-        .text3{
+
+        .text3 {
             background: yellow;
             width: 1000px;
             height: 8000px;
@@ -40,22 +43,37 @@
             max-width: 500px;
         }
 
-        .list1{
+        .list1 {
             list-style-image: url(image/logo.png);
             list-style-position: inside;
         }
-        .list2{
+
+        .list2 {
             list-style-type: square;
         }
-        .list3{
+
+        .list3 {
             list-style-type: decimal;
         }
-        .list4{
+
+        .list4 {
             list-style: inside georgian;
+        }
+
+        .bak {
+            height: 1000px;
+            /* background-color: rgb(255   , 0, 0); */
+            /* background-image: url(image/logo.png); */
+            /* background-repeat: no-repeat; */
+            /* background-position: right center; */
+            /* background-position: 100px 100px; */
+            /* background-attachment: fixed; */
+            background: url(image/logo.png) red no-repeat center center fixed;
         }
     </style>
 </head>
-<body> 
+
+<body>
     <h1>1.字体</h1>
     <div class="text1">华为云在线教育解决方案</div>
     <div class="text1">huawei</div>
@@ -95,5 +113,11 @@
         <li>华为电脑</li>
         <li>华为云电脑</li>
     </ol>
+
+    <h1>5. 颜色</h1>
+    <div class="bak">
+
+    </div>
 </body>
+
 </html>
