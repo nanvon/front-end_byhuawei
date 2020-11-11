@@ -260,5 +260,7 @@ text-shadow:10px 10px 5px gray
 
 
 ## 五、CSS盒模型
-
- 
+- 元素内容 `content`
+- 内边距 `padding`
+- 边框 `border`
+- 外边距 `margin`
