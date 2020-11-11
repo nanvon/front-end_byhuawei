@@ -264,3 +264,16 @@ text-shadow:10px 10px 5px gray
 - 内边距 `padding`
 - 边框 `border`
 - 外边距 `margin`
+
+### 1.内边距`padding`
+指内容和边框之间的区域，属性值为长度值或百分比。长度值不可为负值，百分比值相当于父元素的长度比例  
+
+- `padding-top`
+- `padding-right`
+- `padding-bottom`
+- `padding-left`
+- `padding`简写属性  
+    - 顺序性：上 右 下 左
+    - 只有一个属性值：四个方向属性值一样
+    - 有两个属性值：第一个代表 上、下；第二个代表 左、右
+    - 有三个属性值：第一个代表 上；第二个代表 左、右；第三个代表 下
