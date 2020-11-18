@@ -290,3 +290,27 @@ text-shadow:10px 10px 5px gray
 - `border-color`边框颜色
     - 可以分别设置上下左右四条边框的颜色
 - 复合属性
+
+### 3.外边距`margin`
+外边距是指元素边框之外的区域，控制元素和元素之间的距离。属性值为长度值或百分比。长度值不可为负值   
+
+- `margin-top`
+- `margin-right`
+- `margin-bottom`
+- `margin-left`
+- `margin`简写属性，取值含义与`padding`一致
+
+**居中显示**
+`margin`有一个很常用的特殊用法，`margin`左右属性值设为auto时，可以设置元素左右居中显示  
+```css
+ margin: 0px auto;
+ 
+ or
+
+ margin-right: auto;//右外边距自动变成最大
+ margin-left: auto;//左外边距自动变成最大
+ //因此，左右都为auto时，为左右居中
+```
+
+**叠加特性**
+外边距重叠是指两个垂直相邻的块级元素，当上下两个边距相遇时，起外边距会产生重叠现象，且重叠后的外边距，等于其中较大者。
