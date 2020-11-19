@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS浮动</title>
     <style>
-        .box{
+        .box {
             border: 1px solid black;
-            
+            margin-bottom: 100px;
         }
-        .swim{
+
+        .swim {
             width: 100px;
             height: 100px;
             background: yellow;
             /* float: right; */
             float: left;
         }
+        .box1{
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        .left{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            float: left;
+        }
+        .right{
+            width: 200px;
+            height: 200px;
+            background: green;
+            float: right;
+        }
+        .clear{
+            /* clear: both; */
+        }
+        .box2{
+            border: 1px solid black;
+            height: 50px;
+            overflow: scroll;
+        }
     </style>
 </head>
+
 <body>
     <div class="box">一条会游泳的鱼
         <div class="swim">我会游泳</div>
     </div>
+
+    <div class="box1">
+        <div class="left">我是正在游泳的left</div>
+        <div class="right">我是正在游泳的right</div>
+        <div class="clear"></div>
+        
+    </div>
+    <div class="box2">各位读者：
+
+        龙湖校区图书馆在学校领导的关心和相关职能部门的支持下，2-7层内部建设现已基本完成，设备进入调试运行阶段。为了让各位读者尽快使用，满足学习需要，龙湖校区图书馆拟于11月6日开放试运行，现就相关事宜通知如下：
+        
+        1、试运行期间，开馆时间为每天8:00-22:00，请读者统一从龙湖校区图书馆二楼正大门（南门）入馆。
+        
+        2、入馆读者需持本人一卡通刷卡入馆。
+        
+        3、先期开放2层大厅、3层自修室、3层期刊室、4层新书库供读者自修、阅读。5-7层各书库还在紧张建设中，暂时不开展图书借还业务。
+        
+        4、新馆试运行期间，有问题请及时向二层服务台值班老师咨询。
+        
+        龙湖校区图书馆将尽最大努力实现早日正常开放，待工作全部完成后，一个全开放、环境舒适、人性化的学习空间将提供在广大读者。
+        
+        希望广大读者给予的理解、支持和配合，同时欢迎广大读者对试运行提出宝贵意见和建议。
+        
+        图书馆
+        
+        2020年11月3日</div>
 </body>
+
 </html>
