@@ -321,3 +321,19 @@ text-shadow:10px 10px 5px gray
 - 4. 在上面那种空元素的情况，如果该空元素与另一个元素的外边距碰在一起，也会发生叠加。
 
 参考链接：[CSS: margin叠加几种情况](https://www.cnblogs.com/ycherry/p/8074220.html)
+
+### 拓展：`display`属性
+用于控制元素如何显示
+- `block` 会将元素以块级元素的方式显示
+- `inline` 会将元素以内联元素的方式显示
+- `inline-block` 会将元素以内联块级元素的方式显示，同时具有这个显示特性
+- `none` 元素将会被隐藏
+
+
+两个`span`相邻的情况：
+
+如何去掉间隔：
+1. 代码换行，盒子之间会产生间距    
+2. body设置font-size=0px,其他地方设置font-zize=14px
+
+参考链接：[CSS-块元素、内联元素、内联块元素](https://www.cnblogs.com/i969639/p/11201140.html)

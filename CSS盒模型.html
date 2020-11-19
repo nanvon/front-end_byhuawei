@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>盒模型</title>
     <style>
-        .box{
+        .box {
             padding: 20px;
             border: red 1px solid;
             margin: 20px;
         }
-        .box1{
+
+        .box1 {
             border: solid 1px red;
             /* padding-top: 10px;
             padding-right: 20px;
@@ -21,13 +23,15 @@
 
             padding: 30px 10px 10px;
         }
-        .box2{
+
+        .box2 {
             /* border-style: solid;
             border-width: 10px;
             border-color: #6ca5fe teal rgb(255, 0, 0) aqua; */
             border: dashed teal 10px;
         }
-        .box3{
+
+        .box3 {
             border: 1px solid black;
             /* margin-top: 50px;
             margin-left: 20px;
@@ -41,19 +45,52 @@
             margin-left: auto;
             width: 200px;
         }
-        .box3_1{
+
+        .box3_1 {
             margin: 20px;
             border: 1px solid red;
         }
-        .box3_2{
+
+        .box3_2 {
             margin: 40px;
             border: 1px solid blue;
         }
+
+        .box4 {
+            background: yellow;
+            display: inline;
+        }
+
+        .box5 {
+            background: turquoise;
+            display: block;
+        }
+        .box6{
+            border: 1px solid black;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+        .box7{
+            border: 1px solid black;
+            /* display: none; */
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+        span{
+            background: red;
+            font-size: 10px;
+        }
+        body{
+            font-size: 0px;
+        }
     </style>
 </head>
-<body> 
-    <div class="box">华为云</div> 
-    <h2>内边距</h2> 
+
+<body>
+    <div class="box">华为云</div>
+    <h2>内边距</h2>
     <div class="box1">华为云教育</div>
     <h2>边框</h2>
     <div class="box2">华为云电脑</div>
@@ -61,5 +98,17 @@
     <div class="box3">基础课程</div>
     <div class="box3_1">职业认证</div>
     <div class="box3_2">微认证</div>
+    <h2>dispaly</h2>
+    <div class="box4">华为云</div>
+    <span class="box5">华为云</span>
+    <div class="box6">华为云1号</div>
+    <div class="box7">华为云2号</div>
+
+    <span>观察两个span的间距</span>
+    <span >span</span><span>span</span>
+
+    <span >span</span>
+    <span>span</span>
 </body>
+
 </html>
