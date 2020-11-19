@@ -19,30 +19,30 @@
 2. 小写
 3. 逗号分隔 
 
-## CSS的特性
+### CSS的特性
 - 层叠样式
 - 继承性
 
 ## 三、CSS选择器
 
-### 通配符选择器
+### 1.通配符选择器
 通配符选择器，用`*`表示，对所有元素都生效
 ```css
 *{property:vale; ......}
 ```
-### 元素选择器
+### 2.元素选择器
 使用某个HTML元素名作为选择器
 ```css
 h1{property:value;......}
 ```
-### id选择器
+### 3.id选择器
 可以在HTML标签上设置一个id属性值，且唯一不可重复
 ```css
 #content{property:value;......}
 
 <div id="content">HUAWEI</div>
 ```
-### 类选择器
+### 4.类选择器
 类指class属性，有相同class属性值的都会被选中，不具有唯一性，可以和元素选择器组合使用
 ```css
 .title{property:value;......}
@@ -50,12 +50,12 @@ h1{property:value;......}
 <div class="title">HUWEI</div>
 ```
 
-### 属性选择器
+### 5.属性选择器
 用于对某种属性的元素设置CSS样式
 ```css
 E[attribute]{property:value;......}
 ```
-#### 属性的种类：
+#### 属性的种类
 - `[attribute]`用于选取指定属性（attribute）的元素
 - `[attribute=value]`用于指定属性（attribute）和指定属性值（value）的元素
 - `[attribute~=value]`用于选取属性值中包含指定值的元素
@@ -337,3 +337,10 @@ text-shadow:10px 10px 5px gray
 2. body设置font-size=0px,其他地方设置font-zize=14px
 
 参考链接：[CSS-块元素、内联元素、内联块元素](https://www.cnblogs.com/i969639/p/11201140.html)
+
+## 六、浮动`float`
+浮动是指将元素脱离文档流，向左`left`或者向右`right`布局，默认`none`  
+
+浮动的特点：
+- 一旦对元素设置浮动后，不论之前元素是内联元素还是块级元素，都会被当做块级元素处理
+- 一旦对元素设置浮动之后，该元素便会脱离标准流，会造成父元素的内容塌陷
