@@ -20,8 +20,7 @@
         }
         .box1{
             border: 1px solid black;
-            margin-top: 50px;
-            /* overflow: hidden; */
+            overflow: hidden;
         }
         .left{
             width: 200px;
@@ -35,15 +34,6 @@
             background: green;
             float: right;
         }
-        .clearfix:after{
-            content: "";
-            clear:both;
-            display: block;
-            height: 0px;
-            font-size: 0px;
-            visibility: hidden;
-        }
-
         .clear{
             /* clear: both; */
         }
@@ -51,7 +41,6 @@
             border: 1px solid black;
             height: 50px;
             overflow: scroll;
-            margin-top: 50px;
         }
     </style>
 </head>
@@ -61,7 +50,12 @@
         <div class="swim">我会游泳</div>
     </div>
 
-    
+    <div class="box1">
+        <div class="left">我是正在游泳的left</div>
+        <div class="right">我是正在游泳的right</div>
+        <div class="clear"></div>
+        
+    </div>
     <div class="box2">各位读者：
 
         龙湖校区图书馆在学校领导的关心和相关职能部门的支持下，2-7层内部建设现已基本完成，设备进入调试运行阶段。为了让各位读者尽快使用，满足学习需要，龙湖校区图书馆拟于11月6日开放试运行，现就相关事宜通知如下：
@@ -78,16 +72,11 @@
         
         希望广大读者给予的理解、支持和配合，同时欢迎广大读者对试运行提出宝贵意见和建议。
         
-        <em>图书馆</em>
+        图书馆
         
         2020年11月3日</div>
 
-        <div class="box1 clearfix">
-            <div class="left">我是正在游泳的left</div>
-            <div class="right">我是正在游泳的right</div>
-            <!-- <div class="clear"></div> -->
-            
-        </div>
+
         
 </body>
 
